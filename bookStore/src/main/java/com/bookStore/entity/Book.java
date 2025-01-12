@@ -16,17 +16,14 @@ public class Book {
     private String author;
     private double price;
 
-    // Default Constructor
     public Book() {}
 
-    // All-args Constructor
     public Book(String name, String author, double price) {
         this.name = name;
         this.author = author;
         this.price = price;
     }
 
-    // Getters and Setters
     public int getId() {
         return id;
     }
