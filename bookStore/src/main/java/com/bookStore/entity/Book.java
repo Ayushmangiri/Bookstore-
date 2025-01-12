@@ -14,14 +14,12 @@ public class Book {
 
     private String name;
     private String author;
-    private double price; // Changed to double
+    private double price;
 
-    // Default Constructor (Required by JPA)
-    public Book() {
-        super();
-    }
+    // Default Constructor
+    public Book() {}
 
-    // All-args Constructor (without id, as it's auto-generated)
+    // All-args Constructor
     public Book(String name, String author, double price) {
         this.name = name;
         this.author = author;
